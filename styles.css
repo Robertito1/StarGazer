@@ -1,6 +1,6 @@
 
 body{
-    background-color: #360d33;
+    background-color: #f5f1f5;
     min-height: 1500px;
 }
 #gifbg{
@@ -45,8 +45,12 @@ form{
 
 
 }
-
-
+.carousel{
+    display: flex;
+    align-items: center!important;
+    justify-content: center!important;
+    margin: auto;
+}
 
 .screen{
     display: flex;
