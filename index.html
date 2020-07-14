@@ -5,28 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
 
-    <div id="gifbg">
+    <div class='container-fluid' id="gifbg">
         <div class="welcometext">
-            <h2>HEY ASTROLOGERS, THE WAIT IS FINALLY OVER</h2>
-            <h5>Stargazer is coming, and with it, all the glories of the cosmos.</h5>
+            <h1>HEY ASTROLOGERS, THE WAIT IS FINALLY OVER !</h1>
+            <h3>Stargazer is coming, and with it, all the glories of the cosmos.</h3>
 
         </div>
     </div>
+    <div class="imgs ">
+        <div class="my-4">
+            <img src="./iPhone 11 Pro Max - 2 (3).png" alt="">
+
+        </div>
+        <div class="my-4">
+            <img src="./iPhone 11 Pro Max - 3 (3).png" alt="">
+        </div>
+        <div class="my-4">
+            <img src="./iPhone 11 Pro Max - 4.png" alt="">
+        </div>
+        <div class="my-4">
+            <img src="./iPhone 11 Pro Max - 5.png" alt="">
+        </div>
+    </div>
     <div class="email">
-        <form action="register.php" method="post">
-            <label for="email">
-                <i class="fas fa-envelope" aria-hidden=""></i>
-            </label>
-            <input type="email" name="email" id="email" required placeholder="johndoe@something.com">
-            <input type="submit" value="Submit">
+        <h2 class="text-center text-warning">LETS SEND YOU A MAIL WHEN THE APP IS READY!</h2>
+        <form>
+
+            <div class="form-group">
+                <label for="InputName">Name</label>
+                <input type="password" class="form-control" id="InputName" placeholder="FullName">
+            </div>
+            <div class="form-group">
+                <label for="InputEmail"> <i class="fas fa-envelope" aria-hidden=""></i>
+                    Email address</label>
+                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Notify Me</button>
         </form>
     </div>
+
     <script src="https://use.fontawesome.com/75bfa67c1f.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
 </body>
 
 </html>

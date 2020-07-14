@@ -1,6 +1,6 @@
 
 body{
-    background-color: #000000;
+    background-color: #360d33;
     min-height: 1500px;
 }
 #gifbg{
@@ -9,16 +9,23 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    display: flex;
 }
-
+/* .container {
+    
+    flex-direction: column;
+    align-items: center;
+  } */
 .welcometext{
-    position: absolute;
     margin: 0 auto;
     color: white;
     justify-content: center;
     align-items: center;
     align-self: center;
-    margin-top: 25%;
     text-align: center;
 }
 
@@ -27,6 +34,26 @@ form{
     align-items: center;
     justify-content: center;
 
+
+}
+.imgs{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 35%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+.screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: end;
+    margin: auto;
 }
 /* 
 .parallax{
