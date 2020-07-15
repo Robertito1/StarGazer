@@ -30,14 +30,21 @@ body{
     text-align: center;
 }
 /* HOW TO USE THE APP SECTION STYLES */
+.stepPlacard{
+background: url("Vector.png");
+background-size: 400px 400px;   
+ background-repeat: no-repeat;
+}
 .stepImg{
-    background: url("./Vector.png");
-    background-repeat: no-repeat;
+    height: 400px;
+
 }
 
-.step{
-    
+/* Sneek peek into the app section */
+.scrolling-wrapper{
+	overflow-x: auto;
 }
+
 /* APP FEATURES SECTION */
 .homescreen{
     height: 75vh;
@@ -47,4 +54,7 @@ form{
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+}
+@media (max-width: 600px){
+    
 }
