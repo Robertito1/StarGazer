@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+        integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="styles.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
     <title>Document</title>
 </head>
 
@@ -22,46 +22,124 @@
         <div class="welcometext">
             <h1>HEY ASTROLOGERS, THE WAIT IS FINALLY OVER !</h1>
             <h3>Stargazer is coming, and with it, all the glories of the cosmos.</h3>
-
+            <a href="#subscribe" class="btn btn-primary bg-primary text-white">Get The App</a>
         </div>
     </div>
+    <div class="container-fluid my-4 py-4">
+        <div class="row d-flex justify-content-center">
+            <div class="col-4">
+                <b>
+                    As we journey through the cosmos many times we are plagued with the lack of knowledge about the
+                    bodies above and beyond. With Stargazer all the answers you need is just one picture away. With our
+                    quantum based scanner, the most distant stars are laid bare before you.
+                </b>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <h3 class="text-center py-4">How it works</h3>
+        <div class="row step">
+            <div class="col stepImg">
 
+            </div>
+            <div class="col">
+                <img src="Group 37 (1).png" alt="">
+            </div>
+        </div>
+        <div class="row step">
+            <div class="col">
+                <img src="Group 37 (1).png" alt="">
+            </div>
+            <div class="col stepImg">
 
+            </div>
+        </div>
+        <div class="row step">
+            <div class="col stepImg">
 
+            </div>
+            <div class="col">
+                <img src="Group 37 (1).png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h3 class="d-flex justify-content-center">
+            App features
+        </h3>
+        <img class="mx-auto d-block homescreen" src="./Group 37 (1).png" alt="">
+    </div>
+    <!-- SNEAK PEAK INTO THE APP -->
+    <div class="container text-center">
+        <h5>what will stargazer look like? </h5>
+        <h5 class="text-muted">why not take a look curious one</h5>
+    </div>
+
+    <!-- countdown to the launch -->
+    <div class="container text-center py-4">
+        <b>coming soon...</b>
+        <h1 id="demo" class="bg-dark text-white rounded my-4"></h1>
+    </div>
+
+    <!-- SUBSCRIPTION FORM -->
     <div class="email">
         <h2 class="text-center text-dark">LETS SEND YOU A MAIL WHEN THE APP IS READY!</h2>
-        <form>
+        <form class="mx-5">
 
-            <div class="form-group">
-                <label for="InputName">Name</label>
+            <div class="form-group" id="subscribe">
+                <label for="InputName">Name <i class="fas fa-user"></i></label>
                 <input type="password" class="form-control" id="InputName" placeholder="FullName">
             </div>
             <div class="form-group">
-                <label for="InputEmail"> <i class="fas fa-envelope" aria-hidden=""></i>
-                    Email address</label>
+                <label for="InputEmail">Email address <i class="fas fa-envelope" aria-hidden=""></i>
+                </label>
                 <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
                     placeholder="Enter email">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                     else.</small>
             </div>
 
-            <button type="submit" class="btn btn-primary">Notify Me</button>
+            <button type="submit" class="btn btn-primary mx-auto d-block">Notify Me</button>
         </form>
     </div>
+    <!-- Footer Section -->
+    <footer class="mt-5 py-4 bg-dark text-white" id="main-footer">
+        <div class="container-fluid padding">
+            <div class="row text-center text-nowrap">
+                <div class="col-md-4 align-self-end">
+                    <h2 id="footer-head" class="text-md-left">Stargazer</h2>
+                    <p class='text-md-left'>...bringing you the beauty of the universe</p>
+                    <!-- <div class="text-md-left" id="icon-div">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div> -->
+                </div>
 
-    <script src="https://use.fontawesome.com/75bfa67c1f.js"></script>
-    <!-- JQuery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+                <div class="col-md-4 align-self-end">
+
+                    <b>&#169 &nbsp Lionheart. 2020</b>
+
+                </div>
+                <div class="col-md-4 ">
+                    <P<b>Terms and Conditions</b>></P>
+                        <P><b>Privacy Policy</b></P>
+                </div>
+            </div>
+    </footer>
+
     <script src='script.js'></script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

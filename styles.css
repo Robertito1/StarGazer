@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+/* styles for the body of the document */
 body{
     background-color: #f5f1f5;
     min-height: 1500px;
+    font-family:  'Montserrat', sans-serif;;
 }
+
+/* STYLING THE WELCOME SECTION */
 #gifbg{
     background: url("./ezgif.com-optimize.gif");
     height:100vh;
@@ -15,11 +20,7 @@ body{
     text-align: center;
     display: flex;
 }
-/* .container {
-    
-    flex-direction: column;
-    align-items: center;
-  } */
+
 .welcometext{
     margin: 0 auto;
     color: white;
@@ -28,59 +29,22 @@ body{
     align-self: center;
     text-align: center;
 }
+/* HOW TO USE THE APP SECTION STYLES */
+.stepImg{
+    background: url("./Vector.png");
+    background-repeat: no-repeat;
+}
 
+.step{
+    
+}
+/* APP FEATURES SECTION */
+.homescreen{
+    height: 75vh;
+}
+/* STYLING THE FORM */
 form{
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-
-
 }
-.imgs{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    margin-left: 35%;
-    align-items: center;
-    justify-content: center;
-
-
-}
-.carousel{
-    display: flex;
-    align-items: center!important;
-    justify-content: center!important;
-    margin: auto;
-}
-
-.screen{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-self: end;
-    margin: auto;
-}
-/* 
-.parallax{
-    perspective: 1px;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-.parallax__layer {
-    position: absolute;
-    top: 0;
-    right:0;
-    bottom: 0;
-    left :0;
-}
-
-.parallax__layer--base{
-    transform: translateZ(0);
-        height: 100vh;
-
-}
- .parallax__layer--back{
-     transform: translateZ(-1px);
-         height: 100vh;
-
- } */
