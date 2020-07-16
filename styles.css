@@ -38,6 +38,7 @@ background-repeat: no-repeat;
  justify-content: center;
  height: 600px;
  width: 480px;
+ border: none;
 }
 .stepview{
     text-align: center;
@@ -140,3 +141,4 @@ footer{
 
         }
 }
+
