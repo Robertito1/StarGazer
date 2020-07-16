@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#333641">
     <!-- BOOTSTRAP CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -21,65 +22,93 @@
     <div class='container-fluid' id="gifbg">
         <div class="welcometext">
             <h1>HEY ASTROLOGERS, THE WAIT IS FINALLY OVER !</h1>
-            <h3>Stargazer is coming, and with it, all the glories of the cosmos.</h3>
-            <a href="#subscribe" class="btn btn-primary bg-primary text-white">Get The App</a>
+            <h3 class="my-3">Stargazer is coming, and with it, all the glories of the cosmos.</h3>
+            <h4 class=" my-5">Let us notify you when it launches</h4>
+            <form class="mx-auto " action="register.php" method="post">
+
+
+                <div class="row my-3">
+                    <div class="col">
+                        <input type="email" name="email" id="email" class="form-control  emailinput"
+                            placeholder="Email">
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-primary  btnsubmit" type="submit" value="Submit">
+                            notify me
+                        </button>
+                    </div>
+                </div>
+
+            </form>
         </div>
     </div>
     <div class="container-fluid my-4 py-4">
         <div class="row d-flex justify-content-center">
             <div class="col-sm-12 col-md-4">
                 <b>
-                    As we journey through the cosmos many times we are plagued with the lack of knowledge about the
-                    bodies above and beyond. With Stargazer all the answers you need is just one picture away. With our
-                    quantum based scanner, the most distant stars are laid bare before you.
+                    Stargazer utilizes Hera systems, built to be faster than NASA’s Pelaides supercomputer to enable
+                    live tracking of planets in our solar system. We are here to satiate your thirst for knowledge about
+                    our cosmos.
                 </b>
             </div>
         </div>
     </div>
 
     <h3 class="text-center py-4">How it works</h3>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row step">
-            <div class="col-sm-12 col-md-6 stepPlacard">
 
+            <div class="card col-sm-12 col-md-6 stepPlacard  ">
+                <div class="card-body">
+                    <h5 class="card-title text-white text-justify">Card title</h5>
+                    <p class="card-text text-white text-justify my-auto">Some quick example text to build on the card
+                        title and
+                        make up the
+                        bulk
+                        of
+                        the card's content.</p>
+                </div>
             </div>
+
             <div class="col-sm-12 col-md-6">
-                <img class="stepImg" src="Group 37 (1).png" alt="">
+                <img class="stepImg" src="./assets/Group 37 (1).png" alt="">
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row step">
-            <div class="col">
-                <img class="stepImg" src="Group 37 (1).png" alt="">
+            <div class="col-sm-12 col-md-6">
+                <img class="stepImg" src="./assets/Group 37 (1).png" alt="">
             </div>
-            <div class="col stepPlacard">
-
+            <div class="col-sm-12 col-md-6 stepPlacard">
+                <p class="text-white text-center steptext">Take or upload a picture of the night sky.</p>
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row step">
             <div class="col-sm-12 col-md-6 stepPlacard">
-
+                <p class="text-white text-center steptext">Take or upload a picture of the night sky.</p>
             </div>
             <div class="col-sm-12 col-md-6">
-                <img class="stepImg" src="Group 37 (1).png" alt="">
+                <img class="stepImg" src="./assets/Group 37 (1).png" alt="">
             </div>
         </div>
     </div>
     <div class="container my-4">
-        <h3 class="d-flex justify-content-center">
+        <h3 class="d-flex justify-content-center py-4 my-4">
             App features
         </h3>
         <div class="row">
             <div class="col-md-4">
                 <div>
-                    <h4 class="text-primary">Av/Ar</h4>
+                    <h4 class="text-primary"> <i><img src="./assets/Group (2).png" alt=""></i>&nbsp &nbsp &nbsp
+                        &nbsp AV/AR</h4>
                     <p>Stargazer allows for virtual reality glasses which brings realism to space exploration</p>
                 </div>
                 <div>
-                    <h4 class="text-primary">Support</h4>
+                    <h4 class="text-primary"> <i><img src="./assets/Group 102.png" alt=""></i> &nbsp &nbsp &nbsp
+                        &nbsp Support</h4>
                     <p>Our desk is always receptive to your questionsabout functionalities we add.</p>
                 </div>
                 <div>
@@ -88,20 +117,22 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <img class="mx-auto d-block homescreen" src="./Group 37 (1).png" alt="">
+                <img class="mx-auto d-block homescreen" src="./assets/Group 37 (1).png" alt="">
             </div>
             <div class="col-md-4">
                 <div>
-                    <h4 class="text-primary">Fast</h4>
+                    <h4 class="text-primary"> <i><img src=". " alt=""></i>&nbsp &nbsp &nbsp &nbsp Fast</h4>
                     <p>Stargazer utilzes Peliades to fuel its servers making it one of the fastest apps on the planet.
                     </p>
                 </div>
                 <div>
-                    <h4 class="text-primary">You First</h4>
+                    <h4 class="text-primary"> <i><img src="./assets/Group (3).png" alt=""></i> &nbsp &nbsp &nbsp
+                        &nbspYou First</h4>
                     <p>Stargazer utilizes your preferences to streamline your feed and suggested items.</p>
                 </div>
                 <div>
-                    <h4 class="text-primary">Accurate</h4>
+                    <h4 class="text-primary"> <i><img src="./assets/Vector (2).png" alt=""></i>&nbsp &nbsp &nbsp &nbsp
+                        Accurate</h4>
                     <p>Stargazer gives exact locations of planetary bodies, allowing you to track their movement.</p>
                 </div>
             </div>
@@ -109,32 +140,32 @@
     </div>
     <!-- SNEAK PEAK INTO THE APP -->
     <div class="container-fluid text-center">
-        <h5>what will stargazer look like? </h5>
-        <h5 class="text-muted">why not take a look curious one</h5>
-        <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4">
+        <h3 class=" mt-5">what will stargazer look like? </h3>
+        <h5 class="text-muted mb-5">why not take a look curious one</h5>
+        <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 ">
             <div class="col-3">
                 <div class="card card-block">
-                    <img src="./iPhone 11 Pro Max - 2 (3).png" alt="">
+                    <img class="appscreen" src="./assets/iPhone 11 Pro Max - 2 (3).png" alt="">
                 </div>
             </div>
             <div class="col-3">
                 <div class="card card-block">
-                    <img src="./iPhone 11 Pro Max - 2 (3).png" alt="">
+                    <img class="appscreen" src="./assets/iPhone 11 Pro Max - 2 (3).png" alt="">
                 </div>
             </div>
             <div class="col-3">
                 <div class="card card-block">
-                    <img src="./iPhone 11 Pro Max - 2 (3).png" alt="">
+                    <img class="appscreen" src="./assets/iPhone 11 Pro Max - 2 (3).png" alt="">
                 </div>
             </div>
             <div class="col-3">
                 <div class="card card-block">
-                    <img src="./iPhone 11 Pro Max - 2 (3).png" alt="">
+                    <img class="appscreen" src="./assets/iPhone 11 Pro Max - 2 (3).png" alt="">
                 </div>
             </div>
             <div class="col-3">
                 <div class="card card-block">
-                    <img src="./iPhone 11 Pro Max - 2 (3).png" alt="">
+                    <img class="appscreen" src="./assets/iPhone 11 Pro Max - 2 (3).png" alt="">
                 </div>
             </div>
         </div>
@@ -143,32 +174,30 @@
     <!-- countdown to the launch -->
     <div class="container text-center py-4">
         <b>coming soon...</b>
-        <h1 id="demo" class="bg-dark text-white rounded my-4"></h1>
+        <h1 id="demo" class=" text-white rounded my-4"></h1>
     </div>
 
     <!-- SUBSCRIPTION FORM -->
     <div class="email">
-        <h2 class="text-center text-dark">LETS SEND YOU A MAIL WHEN THE APP IS READY!</h2>
-        <form class="mx-5">
+        <h2 class="text-center text-dark my-4">LETS SEND YOU A MAIL WHEN THE APP IS READY!</h2>
+        <form class="mx-auto " action="register.php" method="post">
 
-            <div class="form-group" id="subscribe">
-                <label for="InputName">Name <i class="fas fa-user"></i></label>
-                <input type="password" class="form-control" id="InputName" placeholder="FullName">
-            </div>
-            <div class="form-group">
-                <label for="InputEmail">Email address <i class="fas fa-envelope" aria-hidden=""></i>
-                </label>
-                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
-                    placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                    else.</small>
+
+            <div class="row my-3">
+                <div class="col">
+                    <input type="email" name="email" id="email" class="form-control  emailinput" placeholder="Email">
+                </div>
+                <div class="row">
+                    <button class="btn btn-primary  btnsubmit" type="submit" value="Submit">
+                        notify me
+                    </button>
+                </div>
             </div>
 
-            <button type="submit" class="btn btn-primary mx-auto d-block">Notify Me</button>
         </form>
     </div>
     <!-- Footer Section -->
-    <footer class="mt-5 py-4 bg-dark text-white" id="main-footer">
+    <footer class="mt-5 py-4  text-white" id="main-footer">
         <div class="container-fluid padding">
             <div class="row text-center text-nowrap">
                 <div class="col-md-4 align-self-end">

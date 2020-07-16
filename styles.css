@@ -9,7 +9,7 @@ body{
 
 /* STYLING THE WELCOME SECTION */
 #gifbg{
-    background: url("./ezgif.com-optimize.gif");
+    background: url("./assets/ezgif.com-optimize.gif");
     height:100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,30 +31,69 @@ body{
 }
 /* HOW TO USE THE APP SECTION STYLES */
 .stepPlacard{
-background: url("Vector.png");
+background: url("./assets/Vector.png");
 background-size: 400px 400px;   
- background-repeat: no-repeat;
+background-repeat: no-repeat;
+ text-align: center;
+ justify-content: center;
 }
 .stepImg{
     height: 400px;
 
 }
+.step{
+    display: flex;
+}
 
 /* Sneek peek into the app section */
 .scrolling-wrapper{
-	overflow-x: auto;
+    overflow-x: auto;
+}
+.appscreen{
+    height: 500px;
 }
 
 /* APP FEATURES SECTION */
 .homescreen{
     height: 75vh;
 }
+
+/* TIMER */
+#demo{
+    background-color: #121212;
+}
 /* STYLING THE FORM */
 form{
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+    width: 400px;
+    display: block;
 }
+.btnsubmit{
+    border-radius: 0px 20px 20px 0px;
+}
+.emailinput{
+    border-radius: 20px 0px 0px 20px;
+}
+
+/* FOOTER STYLES */
+footer{
+    background-color:#121212
+} 
+
 @media (max-width: 600px){
-    
+    .appscreen{
+        height: 200px;
+    }
+    form{
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        display: block;
+    } 
+    .stepPlacard{
+        margin-bottom: 25px;  
+        }  
 }
