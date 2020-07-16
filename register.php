@@ -17,11 +17,13 @@ echo "database connected";
 if (mysqli_connect_error()){
     die('Connect Error ('. mysqli_connect_errno() .') '. mysqli_connect_error());
 }
+
 else {
     $sql = "INSERT INTO subcribers (emails) 
     values ('$email') ";
     if ($conn-> query($sql)){
         echo "new record in the database" ;
+        header("Location: logg.html");
     }
     else{
         echo "Error :". $sql ."<br>". $conn->error;

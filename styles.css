@@ -32,19 +32,49 @@ body{
 /* HOW TO USE THE APP SECTION STYLES */
 .stepPlacard{
 background: url("./assets/Vector.png");
-background-size: 400px 400px;   
+background-size: 480px 600px;   
 background-repeat: no-repeat;
  text-align: center;
  justify-content: center;
+ height: 600px;
+ width: 480px;
+}
+.stepview{
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+    width: 270px;  
+}
+.wrapper{
+    display: flex;
+}
+
+.card-text{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200;
 }
 .stepImg{
+    margin: 0 auto;
     height: 400px;
-
+width: 270px;
+border: 0px;
 }
 .step{
     display: flex;
 }
-
+.placardwrapper{
+    margin: 0 auto;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+.phonewrapper{
+    margin: 0 auto;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
 /* Sneek peek into the app section */
 .scrolling-wrapper{
     overflow-x: auto;
@@ -92,8 +122,21 @@ footer{
         justify-content: center;
         width: 250px;
         display: block;
-    } 
+    }    
+    .placardwrapper{
+            order: 1;
+     }
+     .phonewrapper{
+        order: 2;
+    }
     .stepPlacard{
-        margin-bottom: 25px;  
-        }  
+        background-size: 320px 400px;   
+        background-repeat: no-repeat;
+         text-align: center;
+         justify-content: center;
+         height: 400px;
+         width: 320px;
+         margin-bottom: 25px;  
+
+        }
 }
